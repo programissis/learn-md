@@ -27,7 +27,13 @@ function sum(num1, num2) {
 
 myHeading.textContent += sum(2, 2);
 ```
-## Experience
+## Experience before programming:
+- Jun 2019 - Jul 2019 *Preschool-educator* State educational institution "Nursery-kindergarten №332 of the city Minsk"
+- Jun 2019 - Jul 2019 *Kindergarten preparation teacher* Mamasuper Early Learning School
+- Apr 2020 - Apr 2022 *Preschool-educator* State educational institution "Nursery-kindergarten №39 of the city Minsk"
+- May 2022 - 2023 *Babysitter, nanny* Working in families
+## Experience after programming:
+- Sep 2022 - now *I study at courses and independently*
 ## Education:
 - Minsk College of Business (diploma)
 - Belarusian State University named after Maksim Tank (unfinished)
