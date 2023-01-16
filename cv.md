@@ -29,6 +29,9 @@ myHeading.textContent += sum(2, 2);
 ```
 ## Experience
 ## Education:
+- Minsk College of Business (diploma)
+- Belarusian State University named after Maksim Tank (unfinished)
+- Rolling Scopes School|UpSkillMe(in progress)
 ## Language: 
 - ***English:*** B1
 - ***Russian:*** native
