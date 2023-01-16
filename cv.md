@@ -30,6 +30,6 @@ myHeading.textContent += sum(2, 2);
 ## Experience
 ## Education:
 ## Language: 
-- ***English:***B1
+- ***English:*** B1
 - ***Russian:*** native
 - ***Belarusian:*** native
