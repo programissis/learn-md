@@ -7,7 +7,7 @@
 ## My Contacts:
 
 - **phone: +998909420190**
-- **email: vitaliatereschenko@gmail.com**
+- **email: <vitaliatereschenko@gmail.com>**
 - **github: [programissis](https://github.com/programissis)**
 
 ## About Me
