@@ -54,7 +54,20 @@ myHeading.textContent += sum(2, 2);
 
 - Minsk College of Business (diploma)
 - Belarusian State University named after Maksim Tank (unfinished)
-- Rolling Scopes School|UpSkillMe(in progress)
+- Rolling Scopes School | EPAM UpSkillMe (in progress)
+  - HTML
+    - [Responsive Web Design (HTML part)](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+    - [Learn HTML](https://www.codecademy.com/learn/learn-html)
+    - [HTML: Perfect for Beginners](https://code-basics.com/languages/html)
+  - Git
+    - [Learn Git Branching](https://learngitbranching.js.org/)
+  - CSS
+    - [CSS Introduction](https://www.w3schools.com/css/css_intro.asp)
+    - [Responsive Web Design (CSS part)](https://www.freecodecamp.org/learn/2022/responsive-web-design/)
+    - [CSS: Free Online Learning for Beginners](https://code-basics.com/languages/css)
+  - Markdown
+    - [Markdown Guide](https://www.markdownguide.org/)
+    - [Basic formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ## Language:
 
