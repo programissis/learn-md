@@ -2,6 +2,8 @@
 
 #### frontend-developer
 
+<img src="https://user-images.githubusercontent.com/111791187/213113900-eeb35800-c832-4098-894b-bcd2181836bd.png" alt="Me" width="275" />
+
 ## My Contacts:
 
 - **phone: +998909420190**
