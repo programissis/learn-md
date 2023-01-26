@@ -47,7 +47,7 @@ main {
   border-radius: 100px;
   padding: 100px;
   max-width: 1000px;
-  margin: 20px auto;
+  margin: 50px auto;
 }
 
 .header {
@@ -61,11 +61,6 @@ main {
 }
 
 .header h1 {
-  /* font-family: 'Prata', serif;
-  font-size: 4rem;
-  line-height: 4.4rem;
-  font-weight: 400;
-  margin: 0 0 1rem; */
   font-family: 'Prata', serif;
   font-size: 6rem;
   line-height: 7rem;
@@ -81,9 +76,6 @@ main {
 .profile-image {
   height: 375px;
   border-radius: 100rem;
-  /* width: 250px;
-  height: 250px;
-  object-fit: cover; */
 }
 
 .section {
