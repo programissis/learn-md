@@ -6,136 +6,174 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vitalia Tereschenko</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,200;0,400;0,600;1,400&family=Prata&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main>
-        <h1>Vitalia Tereschenko</h1>
-        <h4>frontend-developer</h4>
-        <img class="profile-image"
-            src="https://user-images.githubusercontent.com/111791187/213113900-eeb35800-c832-4098-894b-bcd2181836bd.png"
-            alt="Me">
-        <h2>My Contacts:</h2>
-        <ul>
-            <li>phone: <a href="tel:+998909420190">+998909420190</a></li>
-            <li>email: <a href="mailto:vitaliatereschenko@gmail.com">vitaliatereschenko@gmail.com</a></li>
-            <li>github: <a href="https://github.com/programissis">github.com/programissis</a></li>
-        </ul>
-        <h2>About Me:</h2>
-        <p>I am 22 years old. I am a junior front-end developer. I want to become a good developer to create cool
-            projects with my husband-developer and work together :) I got my diploma in Minsk College of Business with
-            specialization in “Pre-school education” where we studied two courses in “Information technology”. In these
-            classes we made web-applications with games for children and many other things. Also, because of my high
-            scores and exams, I got a free form of education at the Belarusian State University named after Maksim Tank,
-            but my husband and I had to move to Uzbekistan. So my education in pedagogy ended and I realized that I want
-            more in IT. My experience in pedagogy is 3 years (not counting free internships). My experience in IT - 0
-            years so far, but I hope to change that soon.</p>
-        <h2>Skills:</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JS</li>
-            <li>GIT</li>
-        </ul>
-        <h2>Code Example:</h2>
-        <pre><code>function sum(num1, num2) {
+        <header class="header">
+            <section class="header-section">
+                <h1>Hello, I'm Vitalia Tereschenko</h1>
+                <hr>
+                <span class="job-title">frontend-developer</span>
+            </section>
+            <img class="profile-image"
+                src="https://user-images.githubusercontent.com/111791187/213113900-eeb35800-c832-4098-894b-bcd2181836bd.png"
+                alt="Me">
+        </header>
+        <section class="section list-section">
+            <article>
+                <h2 class="contacts">My Contacts:</h2>
+                <ul>
+                    <li>phone: <a href="tel:+998909420190">+998909420190</a></li>
+                    <li>email: <a href="mailto:vitaliatereschenko@gmail.com">vitaliatereschenko@gmail.com</a></li>
+                    <li>github: <a href="https://github.com/programissis">github.com/programissis</a></li>
+                </ul>
+            </article>
+            <article>
+                <h2>Skills:</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>GIT</li>
+                </ul>
+            </article>
+            <article>
+                <h2>Languages:</h2>
+                <ul>
+                    <li>English - B1</li>
+                    <li>Russian - native</li>
+                    <li>Belarusian - native</li>
+                </ul>
+            </article>
+        </section>
+        <section class="section">
+            <h2>About Me:</h2>
+            <p>
+                I am 22 years old. I am a junior front-end developer. I want to become a good developer to create cool
+                projects with my husband-developer and work together :) I got my diploma in Minsk College of Business
+                with
+                specialization in “Pre-school education” where we studied two courses in “Information technology”. In
+                these
+                classes we made web-applications with games for children and many other things. Also, because of my high
+                scores and exams, I got a free form of education at the Belarusian State University named after Maksim
+                Tank,
+                but my husband and I had to move to Uzbekistan. So my education in pedagogy ended and I realized that I
+                want
+                more in IT. My experience in pedagogy is 3 years (not counting free internships). My experience in IT -
+                0
+                years so far, but I hope to change that soon.
+            </p>
+        </section>
+        <section class="section">
+            <h2>Code Example:</h2>
+            <pre><code>function sum(num1, num2) {
     const result = num1 + num2;
     return result;
 }</code></pre>
-        <h2>Experience before programming:</h2>
-        <ul>
-            <li>Jun 2019 - Jul 2019 <em>Preschool-educator</em> State educational institution<br>
-                "Nursery-kindergarten №332 of the city Minsk"</li>
-            <li>Jun 2019 - Jul 2019 <em>Kindergarten preparation teacher</em><br>
-                "Mamasuper Early Learning School"</li>
-            <li>Apr 2020 - Apr 2022 <em>Preschool-educator</em> State educational institution<br>
-                "Nursery-kindergarten №39 of the city Minsk"</li>
-            <li>May 2022 - 2023 <em>Babysitter, nanny</em><br>
-                Working in families</li>
-        </ul>
-        <h2>Experience after programming:</h2>
-        <ul>
-            <li>Sep 2022 - now <em>I study at courses and independently</em></li>
-        </ul>
-        <h2>Education:</h2>
-        <ul>
-            <li>Minsk College of Business <em>(diploma)</em></li>
-            <li>Belarusian State University named after Maksim Tank <em>(unfinished)</em></li>
-            <li>Rolling Scopes School | EPAM UpSkillMe (in progress)
-                <ul>
-                    <li>HTML
-                        <ul>
-                            <li>
-                                <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design">
-                                    Responsive Web Design (HTML part)
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.codecademy.com/learn/learn-html">
-                                    Learn HTML
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://code-basics.com/languages/html">
-                                    HTML: Perfect for Beginners
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>Git
-                        <ul>
-                            <li>
-                                <a href="https://learngitbranching.js.org">
-                                    Learn Git Branching
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>CSS
-                        <ul>
-                            <li>
-                                <a href="https://www.w3schools.com/css/css_intro.asp">
-                                    CSS Introduction
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design">
-                                    Responsive Web Design (CSS part)
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://code-basics.com/languages/css">
-                                    CSS: Free Online Learning for Beginners
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>Markdown
-                        <ul>
-                            <li>
-                                <a href="https://www.markdownguide.org">
-                                    Markdown Guide
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">
-                                    Basic formatting syntax
-                                </a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        <h2>Language:</h2>
-        <ul>
-            <li>English - B1</li>
-            <li>Russian - native</li>
-            <li>Belarusian - native</li>
-        </ul>
+        </section>
+        <section class="section">
+            <h2>Experience before programming:</h2>
+            <ul>
+                <li>Jun 2019 - Jul 2019 <em>Preschool-educator</em> State educational institution<br>
+                    "Nursery-kindergarten №332 of the city Minsk"</li>
+                <li>Jun 2019 - Jul 2019 <em>Kindergarten preparation teacher</em><br>
+                    "Mamasuper Early Learning School"</li>
+                <li>Apr 2020 - Apr 2022 <em>Preschool-educator</em> State educational institution<br>
+                    "Nursery-kindergarten №39 of the city Minsk"</li>
+                <li>May 2022 - 2023 <em>Babysitter, nanny</em><br>
+                    Working in families</li>
+            </ul>
+            <h2>Experience after programming:</h2>
+            <ul>
+                <li>Sep 2022 - now <em>I study at courses and independently</em></li>
+            </ul>
+            <h2>Education:</h2>
+            <ul>
+                <li>Minsk College of Business <em>(diploma)</em></li>
+                <li>Belarusian State University named after Maksim Tank <em>(unfinished)</em></li>
+                <li>Rolling Scopes School | EPAM UpSkillMe (in progress)
+                    <ul>
+                        <li>HTML
+                            <ul>
+                                <li>
+                                    <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design">
+                                        Responsive Web Design (HTML part)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.codecademy.com/learn/learn-html">
+                                        Learn HTML
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://code-basics.com/languages/html">
+                                        HTML: Perfect for Beginners
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Git
+                            <ul>
+                                <li>
+                                    <a href="https://learngitbranching.js.org">
+                                        Learn Git Branching
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>CSS
+                            <ul>
+                                <li>
+                                    <a href="https://www.w3schools.com/css/css_intro.asp">
+                                        CSS Introduction
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design">
+                                        Responsive Web Design (CSS part)
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://code-basics.com/languages/css">
+                                        CSS: Free Online Learning for Beginners
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>Markdown
+                            <ul>
+                                <li>
+                                    <a href="https://www.markdownguide.org">
+                                        Markdown Guide
+                                    </a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">
+                                        Basic formatting syntax
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
     </main>
+    <footer class="footer">
+        <p>23.01.2023</p>
+        <a href="https://learn.epam.com/study/path?rootId=2442082">
+            <img class="course-logo" src="upskill-logo.jpg" alt="UpSkill logo">
+        </a>
+        <a href="https://github.com/programissis">github.com/programissis</a>
+    </footer>
 </body>
 
 </html>
